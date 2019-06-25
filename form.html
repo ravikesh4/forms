@@ -5,7 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="form.css">
+    <!-- <link rel="stylesheet" href="form.css"> -->
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: black;
+        }
+        
+        .box {
+            width: 300px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            background: #191919;
+            text-align: center;
+        }
+        
+        .box h1 {
+            color: white;
+            font-weight: 500;
+        }
+        
+        .box h3 {
+            color: yellow;
+            font-weight: 500;
+        }
+        
+        .box input[type="text"],
+        .box input[type="email"],
+        .box input[type="tel"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid cyan;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            -webkit-border-radius: 24px;
+            -moz-border-radius: 24px;
+            -ms-border-radius: 24px;
+            -o-border-radius: 24px;
+            transition: 0.25;
+            -webkit-transition: 0.25;
+            -moz-transition: 0.25;
+            -ms-transition: 0.25;
+            -o-transition: 0.25;
+        }
+        
+        .box input[type="text"]:focus,
+        .box input[type="email"]:focus,
+        .box input[type="tel"]:focus {
+            width: 250px;
+            border-color: cyan;
+        }
+        
+        .box input[type="submit"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid cyan;
+            padding: 14px 10px;
+            width: 150px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            -webkit-border-radius: 24px;
+            -moz-border-radius: 24px;
+            -ms-border-radius: 24px;
+            -o-border-radius: 24px;
+            transition: 0.25;
+            -webkit-transition: 0.25;
+            -moz-transition: 0.25;
+            -ms-transition: 0.25;
+            -o-transition: 0.25;
+            cursor: pointer;
+        }
+        
+        .box input[type="submit"]:hover {
+            background: #2ecc71;
+        }
+    </style>
     <title>Loan Form</title>
 </head>
 
